@@ -1,1 +1,1 @@
-{"version": 2, "builds": [{"src": "dist/client/index.html", "use": "@vercel/static"}], "routes": [{"src": "/(.*)", "dest": "dist/client/index.html"}]}
+{"version": 2, "builds": [{"src": "dist/client/**/*", "use": "@vercel/static"}], "routes": [{"src": "/(.*)", "dest": "dist/client/$1"}]}
